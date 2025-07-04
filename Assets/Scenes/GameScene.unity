@@ -929,7 +929,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ldksj
+  m_text: vad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f7405e973d49d6d4eb02d4f36149b9b8, type: 2}
   m_sharedMaterial: {fileID: -4743070830966308734, guid: f7405e973d49d6d4eb02d4f36149b9b8, type: 2}
@@ -1442,9 +1442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bb62c0239edfa4cb7692b9147ddac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonFileName: ModelMind.json
+  jsonFileName: MindMapAI.json
   questionTime: 10
-  questionText: {fileID: 1425879989}
+  outputText: {fileID: 1425879989}
   optionTexts:
   - {fileID: 1145027486}
   - {fileID: 518862925}
