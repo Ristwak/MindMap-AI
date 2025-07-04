@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GPTune.sln"
+    "dotnet.defaultSolution": "MindMap AI.sln"
 }
