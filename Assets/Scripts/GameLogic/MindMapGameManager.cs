@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.IO;
 using System;
+using UnityEngine.Networking;
 
 [Serializable]
 public class ReverseBotQuestion
@@ -175,9 +176,10 @@ public class MindMapGameManager : MonoBehaviour
 
     private void EndGame()
     {
-        outputText.text = "खेल समाप्त!";
-        timerText.text = "";
-        foreach (var btn in optionButtons)
-            btn.gameObject.SetActive(false);
+        // outputText.text = "खेल समाप्त!";
+        // timerText.text = "";
+        // foreach (var btn in optionButtons)
+        //     btn.gameObject.SetActive(false);
+        comingSoonPanel.SetActive(true);
     }
 }
